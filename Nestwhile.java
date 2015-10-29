@@ -1,23 +1,22 @@
 
-public class Nestedloopspair
+public class Nestwhile
 {
-    
-    
+
     public static void main(String []arg)
     {
-        int x =0;
+        int x = 0;
         int y = 0;
-        for( int i = 0; i < 2;i++)
+        while (x <2)
         {
             x++;
-            for ( int z = 0; z <4 ; z++)
+            while(y < 4)
             {
                 y++;
                 System.out.println(x + " " + y);
+                
             }
             y = 0;
         }
-
-    
     }
+
 }
